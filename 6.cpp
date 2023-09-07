@@ -9,6 +9,7 @@
  * 4. Added a variable treeHeight, which stores the highest gNivaa level, 
  * effectively finding the tallet point of the tree.
 */
+
 /**
  *   Programeksempel nr 12 - Traverserer et binært tre REKURSIVT.
  *
