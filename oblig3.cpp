@@ -13,6 +13,7 @@ void downHeap(std::string& arr, const int ant, int keyNr);
 void heapSort(std::string& arr, int n);
 void insertAndWriteHeap(std::vector<int>& heap, std::vector<int>& insert);
 void insertAndWriteForEach(std::vector<int>& heap, int i);
+void printHeap(std::vector<int> heap);
 void printHeap(std::string text, std::vector<int> heap);
 
 int main() {
@@ -62,7 +63,7 @@ void shellSort(std::string& arr, const int n) {
             }
 
             arr[j] = value;
-            std::cout << "\t\t\t" << arr << " h: " << h << " i: " << i << '\n';
+            std::cout << "h: " << h << " i: " << i << "\t\t" << arr <<'\n';
         }
 
         h /= 3;
@@ -83,6 +84,8 @@ int partition(std::string& arr, const int left, const int right) {
         partitionElement = arr[right];
         i = left-1;
         j = right;
+        
+        std::cout << "lft: " << arr[left] << " right: " << arr[right] << " part: " << partitionElement << "\t" << arr << "\n";
 
         while (true) {
             while (arr[++i] < partitionElement);
@@ -103,7 +106,6 @@ void quickSort(std::string& arr, const int left, const int right)  {
         int i = partition(arr, left, right);
         quickSort(arr, left, i - 1);
         quickSort(arr, i + 1, right);
-        std::cout << "\t\t\t" << arr << "\n";
     }
 }
 
