@@ -13,7 +13,6 @@ void downHeap(std::string& arr, const int ant, int keyNr);
 void heapSort(std::string& arr, int n);
 void insertAndWriteHeap(std::vector<int>& heap, std::vector<int>& insert);
 void insertAndWriteForEach(std::vector<int>& heap, int i);
-void printHeap(std::vector<int> heap);
 void printHeap(std::string text, std::vector<int> heap);
 
 int main() {
@@ -84,8 +83,8 @@ int partition(std::string& arr, const int left, const int right) {
         partitionElement = arr[right];
         i = left-1;
         j = right;
-        while (true) {
 
+        while (true) {
             while (arr[++i] < partitionElement);
             while (arr[--j] > partitionElement);
             if (i >= j)  break;
