@@ -1,5 +1,5 @@
 /**
- * Note from Eirik:
+ * Note:
  * 1. Added a counter which increments every time a node is visited, effectively
  *    finding the total node count of the tree
  * 2. Added a nullptr counter which increments every time a node is not found,

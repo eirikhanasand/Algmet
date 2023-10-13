@@ -1,5 +1,5 @@
 /**
- * Note from Eirik:
+ * Note:
  * Added board as suggested by Frode, made visitgroup function which checks that
  * a piece has not been visited, if not it starts a new group, prints the
  * coordinates of the group, the visits the children using recursion of the same

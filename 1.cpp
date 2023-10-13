@@ -1,5 +1,5 @@
 /**
- * Note from Eirik: 
+ * Note: 
  * 
  * 1a. Skipped, seemed unnecesarry.
  * 1b. Created a function that takes the new size, creates a new vector using a

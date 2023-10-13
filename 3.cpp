@@ -1,5 +1,5 @@
 /**
- * Note from Eirik:
+ * Note:
  * 
  * Infix is the "normal" method of writing expressions using a set of rules, for 
  * example parenthesis are valued over addition and subtraction. However for this

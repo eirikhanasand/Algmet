@@ -1,5 +1,5 @@
 /**
- * Note from Eirik:
+ * Note:
  * 
  * Self made map class. Contains some testing, but it has not been completed due
  * to lack of compability between char arrays and the string type. This was to

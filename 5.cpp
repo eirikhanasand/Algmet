@@ -1,5 +1,5 @@
 /**
- * Note from Eirik:
+ * Note:
  * Added a postorder function that first checks if the node has been flagged as
  * seen, if so visits, otherwise flags as seen and continues to child (if any).
 */

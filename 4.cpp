@@ -1,5 +1,5 @@
 /**
- * Note from Eirik:
+ * Note:
  * 
  * Postfix is a way to write expressions without parenthesis and rules. View
  * task 3 for a tutorial on how to turn infix ("normal expressions") into
