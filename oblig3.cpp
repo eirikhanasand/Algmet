@@ -13,7 +13,6 @@ void downHeap(std::string& arr, const int ant, int keyNr);
 void heapSort(std::string& arr, int n);
 void insertAndWriteHeap(std::vector<int>& heap, std::vector<int>& insert);
 void insertAndWriteForEach(std::vector<int>& heap, int i);
-void printHeap(std::vector<int> heap);
 void printHeap(std::string text, std::vector<int> heap);
 
 int main() {
@@ -63,7 +62,7 @@ void shellSort(std::string& arr, const int n) {
             }
 
             arr[j] = value;
-            std::cout << "h: " << h << " i: " << i << "\t\t" << arr <<'\n';
+            std::cout << "h: " << h << " i: " << arr[i-1] << "\t(" << i << ")" << "\t" << arr <<'\n';
         }
 
         h /= 3;
