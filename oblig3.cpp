@@ -1,3 +1,10 @@
+/**
+ * Note:
+ * This is my solution to oblig 3 in the Algmet course. The task is pushed to
+ * Github for my own accessability and version control, and should only be used
+ * as a resource, not copied as an alternative to doing the oblig yourself.
+*/
+
 #include <iostream>
 #include <string>
 #include <cstdlib>
